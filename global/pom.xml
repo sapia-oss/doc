@@ -5,7 +5,7 @@
     <url>http://www.sapia-oss.org</url>
     <groupId>org.sapia</groupId>
     <artifactId>sapia_global</artifactId>
-    <version>2.0</version>
+    <version>2.1</version>
 
     <organization>
         <name>Sapia OSS</name>
@@ -195,6 +195,7 @@
                      <scmCommentPrefix>[jgit-flow]:</scmCommentPrefix>
                      <pushReleases>true</pushReleases>
                      <pushHotfixes>true</pushHotfixes>
+                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
