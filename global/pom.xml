@@ -195,6 +195,7 @@
                      <scmCommentPrefix>[jgit-flow]:</scmCommentPrefix>
                      <pushReleases>true</pushReleases>
                      <pushHotfixes>true</pushHotfixes>
+                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
