@@ -16,7 +16,7 @@
           <tr>
             <td>
               <a href="projects/corus/index.html">Corus</a>: 
-              Corus is used to collectively manage processes distributed on multiple hosts. Deploy plain-vanilla Java apps and Docker containers
+              Corus is used to collectively manage processes distributed on multiple hosts. Deploy plain-vanilla Java apps 
               on a large-scale without forcing yourself into a heavyweight programming model. In short: dump your app server.
             </td>
             <td>

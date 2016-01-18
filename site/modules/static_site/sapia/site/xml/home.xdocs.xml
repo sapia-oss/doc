@@ -6,9 +6,8 @@
     <sapia:sect-desc>
 
       <ul style="color: black; font-size: 16px; list-style: square outside none;">
-        <li>Scale plain Java apps, adopt lightweight app frameworks without compromise</li>
-        <li>Do away with cumbersome programming models and application servers</li>
-        <li>Centrally manage distributed virtual machines and applications on commodity infrastructure</li>
+        <li>Scale plain JVM apps, adopt lightweight app frameworks without compromise</li>
+        <li>Centrally manage distributed JVMs and Docker containers on commodity infrastructure</li>
         <li>Streamline deployments, minimize downtime</li>
         <li>Avoid prohibitive license costs</li>
       </ul>
@@ -18,23 +17,24 @@
         <tbody><tr>
           <td>
               <ul>
-                <li>Allows managing distributed Java virtual machines collectively on multiple hosts</li>
-                <li>Monitors JVMs to insure high-availability (automatically restarts crashed JVMs)</li>
-                <li>Provides command-line interface mimicking Linux/Unix commands, easing the job of sysadmins</li>
+                <li>Allows managing distributed Java virtual machines and Docker containers collectively on multiple hosts.</li>
+                <li>Monitors processes to insure high-availability (automatically restarts crashed processes).</li>
+                <li>Provides command-line interface mimicking Linux/Unix commands, easing the job of sysadmins.</li>
+                <li>Offers REST API for full-fledge automation.</li>
               </ul>
           </td>
           <td>
             <ul>
-              <li>Do away with the app server model: deploy standard Java apps using your lightweight framework of choice (Spring, Guice, etc.)</li>
-              <li>Deploys, undeploys, executes, terminates JVMs (and applications) on multiple hosts as one</li>
-              <li>Install on commodity hardware</li>
+              <li>Do away with the app server model: deploy standard Java apps using your lightweight framework of choice (Spring, Guice, etc.).</li>
+              <li>Deploy, undeploy, execute, terminate JVMs and Docker containers on multiple hosts as one.</li>
+              <li>Install on commodity hardware.</li>
             </ul>
           </td> 
           <td>
             <ul>
-              <li>Corus 4.1.2 (currently <a href="https://www.mediafire.com/folder/v55q0gaqvvbda/corus">available</a>)</li>
-              <li>Repository functionality: auto-deployment and execution of applications to new nodes in cluster</li>
-              <li>Ripple: target command execution to cluster subset (minimize downtime when deploying over large clusters)</li>
+              <li>Corus 5 (currently <a href="https://www.mediafire.com/folder/v55q0gaqvvbda/corus">available</a>)</li>
+              <li>Docker integration now available.</li>
+              <li>Native NUMA integration supported.</li>
             </ul>            
           </td>
         </tr></tbody>
